@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-size: xx-large;"><strong id="counter"></strong></div>
+    <div style="margin-top: 2rem; margin-bottom: 2rem;">
+        <button id="inc">INCREMENT</button>
+        <button id="dec">DECREMENT</button>
+    </div>
+    <hr>
+    <div>
+        <h1>TODO LIST</h1>
+        <div>
+            <form action="" id="todo-form">
+                <input id="todo-text" type="text" placeholder="Add todo" autocomplete="off">
+                <button type="submit" id="add-todo">ADD</button>
+            </form>
+        </div>
+        <div><ul id="todo-list"></ul></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js" 
+        integrity="sha512-P36ourTueX/PrXrD4Auc1kVLoTE7bkWrIrkaM0IG2X3Fd90LFgTRogpZzNBssay0XOXhrIgudf4wFeftdsPDiQ==" 
+        crossorigin="anonymous"> defer
+    </script>
+    <script type="text/javascript" src="index.js" defer></script>
+</body>
+</html>
